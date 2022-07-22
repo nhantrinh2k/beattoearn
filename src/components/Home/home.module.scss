@@ -1,0 +1,57 @@
+.custom_button {
+    border: none;
+    padding: 16px 42px;
+    background: rgba(213, 171, 55, 1);
+    border-radius: 15px;
+    font-size: 16px;
+    color: #590C3A;
+    font-weight: 800;
+}
+
+.position{
+    top: 80%;
+}
+
+.border{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.border::before,
+.border::after {
+  content: '';
+  height: 1.5px;
+  background-color: #E5E5E5;
+  flex-grow: 1;
+  padding: 0 2rem;
+}
+.border::before {
+  margin-right: 4rem;
+}
+.border::after {
+  margin-left: 4rem;
+}
+
+.border_black{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.border_black::before,
+.border_black::after {
+  content: '';
+  height: 1.5px;
+  background-color: rgba(48, 48, 48, 1);
+  flex-grow: 1;
+  padding: 0 2rem;
+}
+.border_black::before {
+  margin-right: 4rem;
+}
+.border_black::after {
+  margin-left: 4rem;
+}
+
+
